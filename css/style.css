@@ -1,0 +1,35 @@
+
+.quotebox{
+  background-color: white;
+  position: absolute;
+  margin-left:-300px;
+  margin-top:-130px;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: auto;
+  border-radius: 4px;
+  
+}
+.button{
+  margin-top: 10%;
+  margin-bottom: 10px;
+  border-width: 0;
+  background-color:#672E3B;
+}
+
+h4{
+  font-size: 25px;
+  
+  }
+
+body{
+  font-family: Raleway;
+}
+
+h1{
+  
+  font-family: Raleway;
+  font-size: 29px;  
+  text-shadow: .5px .5px white;  
+}
