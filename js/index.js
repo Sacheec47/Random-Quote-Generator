@@ -72,36 +72,3 @@ $(document).ready(function(){
     $("#tweet").attr("href",tweetString + "%0A~ " + author + ' ~');
   })
 })
-
-
-//$('.twitter-share-button').attr('data-text', 'Hello!');
-
-/*function colorSelector(){
-    var hexArrayGenerator = [];
-    
-    hexArrayGenerator.push(Math.floor(Math.random() * 10));
-    hexArrayGenerator.push(Math.floor(Math.random() * 10));
-    hexArrayGenerator.push(Math.floor(Math.random() * 10));
-    var x = "#" + hexArrayGenerator.join("");
-  
-   $("#message").css("color", x );
-   
-    return x;
-  
-  }; */
-
- /* //Using ajax to retreive data.
-  $.ajax({url:"https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", cache: false, success: function(result){
-    
-    $("h4").animate({
-          opacity: 0
-        }, 500,
-        function() {
-          $(this).animate({
-            opacity: 1
-          }, 500);  
-      
-         $("h4").html("<p>" + result[0].content + "</p><br> ~ " + result[0].title + " ~");
-          }); 
-        
-  }});  */
